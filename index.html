@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Deepappriya Renganathan — Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8b1d4f6e2b.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Meta for Social / SEO -->
+  <meta name="description" content="Deepappriya Renganathan - Web & Software Developer. Projects: Bus Ticket Booking System, Supermarket Billing System.">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <div class="container nav-inner">
+      <div class="brand">
+        <a href="#home">Portfolio</a>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-btn" aria-expanded="false" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <main id="main">
+    <section id="home" class="hero">
+  <div class="container hero-container">
+    <div class="hero-left">
+      <h1 class="hero-name">Deepappriya <span class="accent">Renganathan</span></h1>
+      <p class="hero-tagline">Computer Science Student | Aspiring Developer | Eager to learn new technologies</p>
+    
+    </div>
+
+    <div class="hero-right">
+      <img src="assets/deep.jpeg" alt="Deepappriya Renganathan" class="hero-photo">
+    </div>
+  </div>
+</section>
+<!-- New section for Resume & Projects buttons -->
+<section id="resume-links" class="next-section">
+  <div class="container button-section reveal">
+    <div class="button-box">
+    <h2 class="section-title">Download my Resume</h2>
+    <p class="section-subtitle">Get a detailed overview of my skills, experience, and qualifications. My resume is available for download in PDF format.</p>
+
+    <div class="hero-buttons">
+      <a href="assets/deepa_resume.pdf" class="btn primary" download>
+        <i class="fa-solid fa-download"></i>Download Resume</a>
+      <a href="#projects" class="btn secondary">View Projects</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+    <!-- PROJECTS -->
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <h2 class="section-title reveal">My Projects</h2>
+    <p class="section-subtitle reveal">Some of the projects I’ve built and contributed to</p>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card reveal">
+        <div class="project-icon">
+          <i class="fa-solid fa-bus-simple"></i>
+        </div>
+        <h3>Bus Ticket Booking System</h3>
+        <p>Developed a full-stack web application that allows passengers to book, cancel, and manage bus tickets with real-time seat availability and secure payment integration.</p>
+        <div class="project-buttons">
+          <a href="https://github.com/Deepappriya/Bus-Ticket-Booking-System" target="_blank" class="btn small">View Source Code</a>
+          <a href="#" class="btn small secondary video-btn" data-video="assets\dbmsproject (1) (1).mp4">
+  <i class="fa-solid fa-play"></i> View Project
+</a>
+
+<!-- at end of body -->
+<div id="videoModal" class="video-modal" aria-hidden="true" role="dialog" aria-label="Project demo video">
+  <div class="video-wrapper" role="document">
+    <button class="video-close" aria-label="Close video">&times;</button>
+    <div class="video-frame">
+      <iframe id="demoVideo" src="" title="Project demo video" frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+        <div class="project-card reveal">
+  <div class="project-icon">
+    <i class="fa-solid fa-book"></i>
+  </div>
+  <h3>NoSQL Bookstore Manager</h3>
+        <div class="project-status">Work in Progress</div>
+         <p>
+    A web application that manages bookstore inventory and sales using MongoDB.
+    Implements CRUD operations for books, order tracking, and an admin dashboard
+    with analytics built through aggregation pipelines.
+  </p>
+        <div class="project-buttons">
+          <a href="#" class="btn small secondary video-btn" data-video="assets\nosql (1).mp4">
+  <i class="fa-solid fa-play"></i> View Project
+</a>
+
+<!-- at end of body -->
+<div id="videoModal" class="video-modal" aria-hidden="true" role="dialog" aria-label="Project demo video">
+  <div class="video-wrapper" role="document">
+    <button class="video-close" aria-label="Close video">&times;</button>
+    <div class="video-frame">
+      <iframe id="demoVideo" src="" title="Project demo video" frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="skills" class="skills-section">
+  <div class="container">
+    <h1 class="section-title reveal">My Skills</h1>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <div class="skill-bar">
+          <span>Java</span>
+        </div>
+        <div class="skill-bar">
+          <span>Python</span>
+        </div>
+        <div class="skill-bar">
+          <span>C</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-globe"></i> Web Technologies</h3>
+        <div class="skill-bar">
+          <span>HTML</span>
+        </div>
+        <div class="skill-bar">
+          <span>CSS</span>
+        </div>
+        <div class="skill-bar">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-bar">
+          <span>React</span>
+        </div>
+        <div class="skill-bar">
+          <span>Node.js</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-database"></i> Database</h3>
+        <div class="skill-bar">
+          <span>MySQL</span>
+        </div>
+        <div class="skill-bar">
+          <span>MongoDB</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Platforms</h3>
+        <div class="skill-bar">
+          <span>VS Code</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3><i class="fa-solid fa-user-tie"></i>Soft skills</h3>
+        <div class="skill-bar">
+          <span>Strong communication skills</span>
+        </div>
+        <div class="skill-bar">
+          <span>Problem-solving abilities</span>
+        </div>
+        <div class="skill-bar">
+          <span>Time management and organizational skills</span>
+        </div>
+        <div class="skill-bar">
+          <span>Adaptability</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- CERTIFICATES -->
+<!-- Certificates Section -->
+<section id="certificates" class="certificates-section">
+  <div class="container">
+    <h2 class="section-title reveal">Certificates</h2>
+    <p class="section-subtitle reveal">Courses, workshops, and achievements</p>
+
+    <div class="certificates-grid">
+
+      <!-- NPTEL Python -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-brands fa-python"></i>
+          <h3>Programming in Python</h3>
+        </div>
+        <h4>NPTEL</h4>
+        <p>Completed an online course on Python programming fundamentals.</p>
+        <a href="https://drive.google.com/file/d/16MncH746FT7vW_m1649LcFONXznl9OJY/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- IoT Certificate -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-solid fa-wifi"></i>
+          <h3>Internet of Things (IoT)</h3>
+        </div>
+        <h4>NPTEL</h4>
+        <p>Learned IoT concepts including sensors, microcontrollers, and cloud connectivity.</p>
+        <a href="https://drive.google.com/file/d/1ZO-TifX8Z1eRa3n8UsVUYyN3r3dZsFOf/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- Python Zero to Hero -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python Zero to Hero</h3>
+        </div>
+        <h4>GUVI</h4>
+        <p>Completed beginner to advanced training in Python with hands-on coding tasks.</p>
+        <a href="https://drive.google.com/file/d/1jkq3iasFi4iqlQLOaoy4Mpz-plmAQpNy/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- Generative AI -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-solid fa-robot"></i>
+          <h3>Generative AI</h3>
+        </div>
+        <h4>GUVI</h4>
+        <p>Explored the concepts of Generative AI models and prompt-based applications.</p>
+        <a href="https://drive.google.com/file/d/1NxRUi9JOdT4oca8vryQ_-eYUeDOHBeIu/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- Python Foundation -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-brands fa-python"></i>
+          <h3>Python Foundation</h3>
+        </div>
+        <h4>Infosys Springboard</h4>
+        <p>Completed Python fundamentals course focusing on control structures and OOP.</p>
+        <a href="https://drive.google.com/file/d/1z_Ywki3Lp39AAd2LZAMIU52WbIWcUjeN/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- MongoDB Basics -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-solid fa-database"></i>
+          <h3>MongoDB Basics for Students</h3>
+        </div>
+        <h4>MongoDB University</h4>
+        <p>Learned data modeling, CRUD operations, and indexing in MongoDB.</p>
+        <a href="https://drive.google.com/file/d/1N4cC56Sto0OcJSa5jIOFKGZQ4lwBmtcQ/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- DBMS Course -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-solid fa-database"></i>
+          <h3>DBMS Course</h3>
+        </div>
+        <h4>Scaler</h4>
+        <p>Studied database concepts, normalization, and SQL queries.</p>
+        <a href="https://drive.google.com/file/d/1VgqyzMjawHB00mmRf-wnG0LNa3JNheR-/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- Data Analytics Workshop -->
+      <div class="certificate-card reveal">
+        <div class="certificate-header">
+          <i class="fa-solid fa-chart-column"></i>
+          <h3>Data Analytics Workshop</h3>
+        </div>
+        <h4>Power BI & Tableau</h4>
+        <p>Attended a workshop on data visualization and business analytics tools.</p>
+        <a href="https://drive.google.com/file/d/1Vn-qFJMCwU6LvvLcGKzFKLtKg-o5Ot66/preview" target="_blank" class="btn small">View Certificate</a>
+      </div>
+
+      <!-- Pragati Path to Future Certificate -->
+<div class="certificate-card reveal">
+  <div class="certificate-header">
+    <i class="fa-solid fa-lightbulb"></i>
+    <h3>Pragati Path to Future Certificate</h3>
+  </div>
+  <h4>Infosys Springboard</h4>
+  <p>Completed the “Pragati Path to Future” program offered by Infosys Springboard, focusing on digital literacy and emerging technologies for future readiness.</p>
+  <a href="https://drive.google.com/file/d/17La-JnooSrlQMnpWcZIOq6x6bjGNZ_qi/preview" target="_blank" class="btn small">
+    View Certificate
+  </a>
+</div>
+    </div>
+  </div>
+</section>
+
+    <!-- EDUCATION -->
+    <!-- Education Section -->
+<section id="education" class="education-section">
+  <div class="container">
+    <h2 class="section-title reveal">Education</h2>
+
+    <div class="education-grid">
+
+      <!-- College -->
+      <div class="education-card reveal">
+        <div class="education-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+        <p><strong>CGPA:</strong> 9.0</p>
+        <p>Ramakrishnan College of Engineering, Samayapuram, Trichy</p>
+        <p>2023 - 2027</p>
+      </div>
+
+      <!-- HSC -->
+      <div class="education-card reveal">
+        <div class="education-icon pink">
+          <i class="fa-solid fa-school"></i>
+        </div>
+        <h3>Higher Secondary Certificate (HSC)</h3>
+        <p><strong>Percentage:</strong> 92.2%</p>
+        <p>Sri Vageesha Vidhyashram Senior Secondary School, Melur Road, Srirangam</p>
+        <p>2023</p>
+      </div>
+
+      <!-- SSLC -->
+      <div class="education-card reveal">
+        <div class="education-icon blue">
+          <i class="fa-solid fa-book"></i>
+        </div>
+        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+        <p><strong>Percentage:</strong> 96.6%</p>
+        <p>Sri Akilandeswari Vidyalaya, Trichy</p>
+        <p>2021</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Internships Section -->
+<section id="internships" class="internships-section">
+  <div class="container">
+    <h2 class="section-title reveal">Internships</h2>
+
+    <div class="internships-grid">
+
+      <!-- Internship 1 -->
+      <div class="internship-card reveal">
+        <div class="internship-icon">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <h3>Software Development Intern</h3>
+        <h4>SkillCraft Technologies (Online)</h4>
+        <p><strong>Duration:</strong> 2025</p>
+        <ul>
+          <li>Developed responsive and user-friendly web pages using HTML, CSS, and JavaScript.</li>
+          <li>Worked collaboratively on UI improvements and page optimization.</li>
+          <li>Gained hands-on experience in frontend web development.</li>
+        </ul>
+        <a href="https://drive.google.com/file/d/1N3PuePCIAnu8rOuLYsW-F2W07ED27J8l/preview" target="_blank" class="btn small">
+          View Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- CONTACT -->
+    <!-- Contact Section -->
+<footer id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title reveal">Contact</h2>
+
+    <div class="contact-icons">
+      <a href="mailto:deepappriyarenganathan22@gmail.com" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="tel:+919150262187">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/deepappriya-renganathan" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Deepappriya" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+
+    <p class="copyright">
+      © 2025 Deepappriya Renganathan. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
