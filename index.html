@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Deepappriya R — Full Stack Developer</title>
+
+<meta name="description" content="Deepappriya R — Computer Science student and aspiring Java Full Stack Developer. Java, Spring Boot, Angular, MySQL, MongoDB. Projects, internships, and certifications.">
+<meta name="theme-color" content="#060B14">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Deepappriya R — Full Stack Developer">
+<meta property="og:description" content="Java Full Stack Developer in training — Spring Boot, Angular, MySQL, MongoDB. View projects, internships, and certifications.">
+<meta property="og:type" content="website">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav-wrap">
+  <div class="container nav-inner">
+    <div class="brand">
+      <a href="#home">deepappriya<span class="dot">.dev</span></a>
+    </div>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="menu-btn" aria-expanded="false" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="hero-kicker"><span id="typewriter"></span><span class="cursor"></span></p>
+        <h1 class="hero-name">Hi, I'm <span class="accent">Deepappriya R</span></h1>
+        <p class="hero-role">
+          <span>Computer Science &amp; Engineering Student</span>
+          <span class="pipe">/</span>
+          <span>Aspiring Java Full Stack Developer</span>
+        </p>
+        <p class="hero-desc">
+          I build full-stack applications with Java, Spring Boot, and Angular — backed by solid fundamentals in databases, REST APIs, and authentication. Currently interning at a Technology Innovation Hub, shipping a real learning management system end to end.
+        </p>
+        <div class="hero-actions">
+          <a href="assets/resume.pdf" class="btn primary" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+          <a href="#projects" class="btn secondary">
+            <i class="fa-solid fa-arrow-right"></i> View Projects
+          </a>
+        </div>
+        <div class="hero-meta">
+          <a href="mailto:deepappriyarenganathan22@gmail.com"><i class="fa-solid fa-envelope"></i> deepappriyarenganathan22@gmail.com</a>
+          <a href="tel:+919150262187"><i class="fa-solid fa-phone"></i> +91 91502 62187</a>
+          <span><i class="fa-solid fa-location-dot"></i> Trichy, Tamil Nadu</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="float-badge b1"><i class="fa-solid fa-mug-hot"></i> Java &amp; Spring Boot</div>
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+            <span class="terminal-title">~/deepappriya — status</span>
+          </div>
+          <div class="terminal-photo-wrap">
+            <img src="assets/deep.jpeg" alt="Portrait of Deepappriya R" class="hero-photo">
+          </div>
+          <div class="terminal-status">
+            <div class="row"><span>role</span><span class="ok">full_stack_dev.intern</span></div>
+            <div class="row"><span>cgpa</span><span class="ok">9.02 / 10</span></div>
+            <div class="row"><span>status</span><span class="ok">● open_to_internships</span></div>
+          </div>
+        </div>
+        <div class="float-badge b2"><i class="fa-solid fa-database"></i> MySQL &amp; MongoDB</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS STRIP ============ -->
+  <section class="stats-strip" aria-label="Quick stats">
+    <div class="container stats-grid">
+      <div class="stat-cell reveal">
+        <div class="stat-num"><span class="counter" data-target="6">0</span>+</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-cell reveal delay-1">
+        <div class="stat-num"><span class="counter" data-target="9">0</span>+</div>
+        <div class="stat-label">Certifications</div>
+      </div>
+      <div class="stat-cell reveal delay-2">
+        <div class="stat-num"><span class="counter" data-target="2">0</span></div>
+        <div class="stat-label">Internships</div>
+      </div>
+      <div class="stat-cell reveal delay-3">
+        <div class="stat-num"><span class="counter" data-target="9.02" data-decimal="true">0</span></div>
+        <div class="stat-label">CGPA / 10</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — About</p>
+        <h2 class="section-title">Why I build the way I do</h2>
+        <p class="section-sub">A bit of background on what I'm working toward and how I think about software.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-text reveal">
+          <p>
+            I'm an enthusiastic Computer Science and Engineering student with hands-on expertise in Java, SQL, Spring Boot, Angular, and full-stack development. I care about building software that's scalable and actually solves the problem it was meant to — not just code that runs.
+          </p>
+          <p>
+            Most of what I know, I learned by shipping real projects: an e-commerce platform with JWT auth and a working cart-to-order flow, a constitution-learning platform with gamification, a ticket booking system with live seat selection. I'm currently interning at a Technology Innovation Hub, building a role-based learning management system from the ground up.
+          </p>
+          <ul class="about-highlights">
+            <li><i class="fa-solid fa-check"></i> Strong fundamentals in OOP, DBMS, and JWT-based authentication</li>
+            <li><i class="fa-solid fa-check"></i> Comfortable across both relational (MySQL) and NoSQL (MongoDB) data models</li>
+            <li><i class="fa-solid fa-check"></i> Currently building production features in a real internship codebase</li>
+          </ul>
+        </div>
+
+        <div class="glass-card reveal delay-1">
+          <p class="about-card-title">Current focus</p>
+          <div class="focus-list">
+            <div class="focus-row"><span>Java + Spring Boot backend systems</span><span class="tag">core</span></div>
+            <div class="focus-row"><span>Angular &amp; React for frontend interfaces</span><span class="tag">frontend</span></div>
+            <div class="focus-row"><span>REST API design &amp; JWT authentication</span><span class="tag">security</span></div>
+            <div class="focus-row"><span>MySQL &amp; MongoDB data modeling</span><span class="tag">data</span></div>
+            <div class="focus-row"><span>Git-based collaborative workflows</span><span class="tag">tooling</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 — Skills</p>
+        <h2 class="section-title">Technical toolkit</h2>
+        <p class="section-sub">The languages, frameworks, and tools I use to take an idea from schema to shipped feature.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-code"></i></span>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-display"></i></span>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Angular</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-server"></i></span>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-database"></i></span>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Spring Tool Suite</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-card-head">
+            <span class="skill-icon"><i class="fa-solid fa-diagram-project"></i></span>
+            <h3>Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">OOPs</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">JWT Authentication</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="soft-skills-row">
+        <div class="soft-pill reveal"><i class="fa-solid fa-comments"></i><span>Communication</span></div>
+        <div class="soft-pill reveal delay-1"><i class="fa-solid fa-puzzle-piece"></i><span>Problem Solving</span></div>
+        <div class="soft-pill reveal delay-2"><i class="fa-solid fa-people-group"></i><span>Team Collaboration</span></div>
+        <div class="soft-pill reveal delay-3"><i class="fa-solid fa-arrows-rotate"></i><span>Adaptability</span></div>
+        <div class="soft-pill reveal delay-4"><i class="fa-solid fa-clock"></i><span>Time Management</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 — Projects</p>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-sub">Six projects spanning full-stack web apps, NoSQL systems, and data analysis — each one taught me something the last didn't.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Featured: Full Stack E-Commerce -->
+        <div class="project-card featured reveal">
+          <div class="project-media">
+            <span class="featured-tag">Featured</span>
+            <img src="assets/posters/ecommerce.jpg" alt="Full Stack E-Commerce Application preview">
+          </div>
+          <div class="project-body">
+            <h3>Full Stack E-Commerce Application</h3>
+            <p>A complete e-commerce platform with JWT-based authentication, product management, a working shopping cart, and end-to-end order placement — built to mirror a real production app, not a tutorial clone.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">Spring Boot</span>
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">JWT</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bus Ticket Booking -->
+        <div class="project-card reveal">
+          <div class="project-media video-trigger" data-video="assets/videos/bus-booking.mp4">
+            <img src="assets/posters/bus-booking.jpg" alt="Bus Ticket Booking System preview">
+            <div class="play-overlay"><span class="play-circle"><i class="fa-solid fa-play"></i></span></div>
+          </div>
+          <div class="project-body">
+            <h3>Bus Ticket Booking System</h3>
+            <p>Full-stack ticket booking app with real seat selection, ticket generation, simulated payments, and an admin dashboard for managing buses, routes, and bookings.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">HTML/CSS/JS</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya/Bus-Ticket-Booking-System" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+              <button class="btn small ghost video-trigger-btn" data-video="assets/videos/bus-booking.mp4"><i class="fa-solid fa-play"></i> Watch Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Samvidhan Saar -->
+        <div class="project-card reveal">
+          <div class="project-media">
+            <img src="assets/posters/samvidhan.jpg" alt="Samvidhan Saar preview">
+          </div>
+          <div class="project-body">
+            <h3>Samvidhan Saar — Constitution Learning Platform</h3>
+            <p>An interactive platform for learning the Indian Constitution through structured modules, quizzes, progress tracking, an admin dashboard, and gamification to keep learners engaged.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">MongoDB</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Online Bookstore Manager -->
+        <div class="project-card reveal">
+          <div class="project-media video-trigger" data-video="assets/videos/bookstore.mp4">
+            <img src="assets/posters/bookstore.jpg" alt="Online Bookstore Manager preview">
+            <div class="play-overlay"><span class="play-circle"><i class="fa-solid fa-play"></i></span></div>
+          </div>
+          <div class="project-body">
+            <h3>Online Bookstore Manager</h3>
+            <p>NoSQL-based bookstore management app covering customer management, shopping cart, inventory updates, and order processing — with document modeling tuned for fast queries.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">MongoDB</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya/Digital-Bookstore-Manager" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+              <button class="btn small ghost video-trigger-btn" data-video="assets/videos/bookstore.mp4"><i class="fa-solid fa-play"></i> Watch Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- R Programming -->
+        <div class="project-card reveal">
+          <div class="project-media video-trigger" data-video="assets/videos/r-analysis.mp4">
+            <img src="assets/posters/r-analysis.jpg" alt="R Programming data analysis preview">
+            <div class="play-overlay"><span class="play-circle"><i class="fa-solid fa-play"></i></span></div>
+          </div>
+          <div class="project-body">
+            <h3>R Programming — Data Analysis</h3>
+            <p>Statistical analysis project applying data cleaning, exploratory analysis, and visualization in R — including a classification model to assess meat freshness from sensor data.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">R</span>
+              <span class="tech-badge">Data Analysis</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya/Meat-Freshness-Detection-using-Gas-Sensors" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+              <button class="btn small ghost video-trigger-btn" data-video="assets/videos/r-analysis.mp4"><i class="fa-solid fa-play"></i> Watch Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inventory Management -->
+        <div class="project-card reveal">
+          <div class="project-media video-trigger" data-video="assets/videos/inventory.mp4">
+            <img src="assets/posters/inventory.jpg" alt="Inventory Management System preview">
+            <div class="play-overlay"><span class="play-circle"><i class="fa-solid fa-play"></i></span></div>
+          </div>
+          <div class="project-body">
+            <h3>Inventory Management System</h3>
+            <p>Designed using OOAD principles, with full UML coverage — use case, class, sequence, and activity diagrams — to model system behavior before a line of code was written.</p>
+            <div class="tech-badges">
+              <span class="tech-badge">OOAD</span>
+              <span class="tech-badge">UML</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Deepappriya/Inventory_Management_System" target="_blank" rel="noopener" class="btn small secondary"><i class="fa-brands fa-github"></i> Source Code</a>
+              <button class="btn small ghost video-trigger-btn" data-video="assets/videos/inventory.mp4"><i class="fa-solid fa-play"></i> Watch Demo</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">04 — Certifications</p>
+        <h2 class="section-title">Continuous learning, on the record</h2>
+        <p class="section-sub">Courses and credentials across cloud, databases, and programming fundamentals.</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-mug-hot"></i></span>
+            <div><h3>Java Full Stack Development</h3><p class="cert-org">Stepforcode</p></div>
+          </div>
+          <p>End-to-end full stack training covering Java, Spring Boot, and frontend integration.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Java Full Stack Development" data-cert-url="https://drive.google.com/file/d/1otTvTDs4GrIw50XYQ1QhQzuM3TNa-0mU/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-brands fa-aws"></i></span>
+            <div><h3>AWS Certified Cloud Practitioner</h3><p class="cert-org">Amazon Web Services</p></div>
+          </div>
+          <p>Foundational certification covering core AWS services, cloud economics, and security basics.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="AWS Certified Cloud Practitioner" data-cert-url="https://drive.google.com/file/d/1S-9yVweHS8hJnZgs4rgl2q74Krqi19Z9/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate 
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-shield-halved"></i></span>
+            <div><h3>Certified System Administrator (CSA)</h3><p class="cert-org">ServiceNow</p></div>
+          </div>
+          <p>Validated skills in configuring and administering the ServiceNow platform.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="ServiceNow CSA" data-cert-url="https://drive.google.com/file/d/1owwZeS6YyJOB3k6QbN05VuRLlNgxZYbt/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate 
+          </button>
+        </div>
+
+        
+
+        <div class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-leaf"></i></span>
+            <div><h3>MongoDB Basics for Students</h3><p class="cert-org">MongoDB University</p></div>
+          </div>
+          <p>Document data modeling, CRUD operations, and indexing fundamentals in MongoDB.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="MongoDB Basics for Students" data-cert-url="https://drive.google.com/file/d/1N4cC56Sto0OcJSa5jIOFKGZQ4lwBmtcQ/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-database"></i></span>
+            <div><h3>DBMS Course</h3><p class="cert-org">Scaler</p></div>
+          </div>
+          <p>Database design, normalization, transactions, and SQL query practice.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="DBMS Course" data-cert-url="https://drive.google.com/file/d/1VgqyzMjawHB00mmRf-wnG0LNa3JNheR-/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-cloud"></i></span>
+            <div><h3>Cloud Computing</h3><p class="cert-org">NPTEL</p></div>
+          </div>
+          <p>Virtualization, cloud service models (IaaS/PaaS/SaaS), and deployment patterns.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Cloud Computing" data-cert-url="https://drive.google.com/file/d/1vKVwjNUfxBukZGE6uT3ugC43Jq9U1bFF/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-wifi"></i></span>
+            <div><h3>Internet of Things</h3><p class="cert-org">NPTEL</p></div>
+          </div>
+          <p>Sensor networks, microcontrollers, and IoT communication protocols.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Internet of Things" data-cert-url="https://drive.google.com/file/d/1ZO-TifX8Z1eRa3n8UsVUYyN3r3dZsFOf/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-brands fa-python"></i></span>
+            <div><h3>Python Foundation</h3><p class="cert-org">Infosys Springboard</p></div>
+          </div>
+          <p>Python fundamentals — control structures, data types, and object-oriented basics.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Python Foundation" data-cert-url="https://drive.google.com/file/d/1z_Ywki3Lp39AAd2LZAMIU52WbIWcUjeN/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-lightbulb"></i></span>
+            <div><h3>Pragati Path to Future</h3><p class="cert-org">Infosys Springboard</p></div>
+          </div>
+          <p>Cohort-based program on digital literacy and emerging-technology readiness.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Pragati Path to Future" data-cert-url="https://drive.google.com/file/d/17La-JnooSrlQMnpWcZIOq6x6bjGNZ_qi/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-brands fa-python"></i></span>
+            <div><h3>Programming in Python</h3><p class="cert-org">NPTEL</p></div>
+          </div>
+          <p>Completed an online course on Python programming fundamentals.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Programming in Python" data-cert-url="https://drive.google.com/file/d/16MncH746FT7vW_m1649LcFONXznl9OJY/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-1">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-wifi"></i></span>
+            <div><h3>IOT Workshop</h3><p class="cert-org">Rajan Robotics</p></div>
+          </div>
+          <p>Built a mini IoT project using sensors and microcontrollers with real-time data transmission and monitoring.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="IOT Workshop" data-cert-url="https://drive.google.com/file/d/1vI8LGiHtrRkHi80aoxWf3i7DRoI2pGhf/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+        <div class="cert-card reveal delay-2">
+          <div class="cert-top">
+            <span class="cert-icon"><i class="fa-solid fa-robot"></i></span>
+            <div><h3>Generative  AI</h3><p class="cert-org">GUVI</p></div>
+          </div>
+          <p>Explored the concepts of Generative AI models and prompt-based applications.</p>
+          <button class="btn small secondary cert-trigger" data-cert-name="Generative  AI" data-cert-url="https://drive.google.com/file/d/1NxRUi9JOdT4oca8vryQ_-eYUeDOHBeIu/preview">
+            <i class="fa-solid fa-file-certificate"></i> View Certificate
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE: Internships + Education ============ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">05 — Experience</p>
+        <h2 class="section-title">Internships &amp; education</h2>
+        <p class="section-sub">Where I've worked and where I've studied — both still very much in progress.</p>
+      </div>
+
+      <div class="timeline-cols">
+        <!-- Internships -->
+        <div>
+          <p class="about-card-title" style="margin-bottom:24px">Internships</p>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <div>
+                    <h3>Software Development Intern</h3>
+                    <p class="timeline-org">Technology Innovation Hub (TIH)</p>
+                  </div>
+                  <span class="timeline-date">Jan 2026 – Present</span>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-circle"></i> Building a role-based Learning Management System from scratch</li>
+                  <li><i class="fa-solid fa-circle"></i> Implementing course management, enrollment, and progress tracking</li>
+                  <li><i class="fa-solid fa-circle"></i> Adding admin functionality and gamification features</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item reveal delay-1">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <div>
+                    <h3>Software Development Intern</h3>
+                    <p class="timeline-org">SkillCraft Technologies (Online)</p>
+                  </div>
+                  <span class="timeline-date">2025</span>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-circle"></i> Developed responsive, user-friendly web pages with HTML, CSS, and JavaScript</li>
+                  <li><i class="fa-solid fa-circle"></i> Collaborated on UI improvements and page-load optimization</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <p class="about-card-title" style="margin-bottom:24px">Education</p>
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <div>
+                    <h3>B.E. Computer Science &amp; Engineering</h3>
+                    <p class="timeline-org">K. Ramakrishnan College of Engineering</p>
+                  </div>
+                  <span class="timeline-date">2023 – 2027</span>
+                </div>
+                <p class="edu-score">CGPA: 9.02 / 10</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal delay-1">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <div>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <p class="timeline-org">Sri Vageesha Vidhyashram, Srirangam</p>
+                  </div>
+                  <span class="timeline-date">2023</span>
+                </div>
+                <p class="edu-score">92.2%</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal delay-2">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card">
+                <div class="timeline-meta">
+                  <div>
+                    <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                    <p class="timeline-org">Sri Akilandeshwari Vidyalaya, Trichy</p>
+                  </div>
+                  <span class="timeline-date">2021</span>
+                </div>
+                <p class="edu-score">96.6%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <footer id="contact" class="contact-section">
+    <div class="container contact-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">06 — Contact</p>
+        <h2 class="section-title">Let's build something</h2>
+        <p class="section-sub">Open to internship and placement opportunities — reach out through any of these.</p>
+      </div>
+
+      <div class="contact-links reveal delay-1">
+        <a href="mailto:deepappriyarenganathan22@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="tel:+919150262187" class="contact-link"><i class="fa-solid fa-phone"></i> +91 91502 62187</a>
+        <a href="https://www.linkedin.com/in/deepappriya-renganathan" target="_blank" rel="noopener" class="contact-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Deepappriya" target="_blank" rel="noopener" class="contact-link"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="site-footer">
+      <p>Built by Deepappriya R — © <span id="year"></span></p>
+    </div>
+  </footer>
+
+</main>
+
+<!-- Video Modal -->
+<div id="videoModal" class="video-modal" aria-hidden="true" role="dialog" aria-label="Project demo video">
+  <div class="video-wrapper" role="document">
+    <button class="video-close" aria-label="Close video">&times;</button>
+    <div class="video-frame">
+      <video id="demoVideo" controls playsinline></video>
+    </div>
+  </div>
+</div>
+
+<!-- Certificate Modal -->
+<div id="certModal" class="video-modal cert-modal" aria-hidden="true" role="dialog" aria-label="Certificate viewer">
+  <div class="video-wrapper cert-wrapper" role="document">
+    <button class="video-close cert-close" aria-label="Close certificate">&times;</button>
+    <p class="cert-modal-title" id="certModalTitle"></p>
+    <div class="cert-frame">
+      <iframe id="certIframe" src="" title="Certificate" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <a id="certOpenNewTab" href="#" target="_blank" rel="noopener" class="btn small secondary cert-open-link">
+      <i class="fa-solid fa-up-right-from-square"></i> Open in new tab
+    </a>
+  </div>
+</div>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
